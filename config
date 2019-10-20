@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/learn-academy-2019-echo/js-intro-assessment-1-kalvin-k.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "week1-kalvin"]
+	remote = origin
+	merge = refs/heads/week1-kalvin
